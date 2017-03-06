@@ -1,0 +1,312 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="/Templates/index.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- InstanceBeginEditable name="docdtitle" -->
+<title>訪談與踏查-訪談心得</title>
+<!-- InstanceEndEditable -->
+<link href="../style.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+<!--
+
+
+ ul { /* 取消ul預設的內縮及樣式 */ 
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+
+    ul.drop-down-menu {s
+       <!-- border: #ccc 1px solid; -->
+	    border: #520404 1px solid;
+        display: inline-block;
+        font-family: 'Open Sans', Arial, sans-serif;
+        font-size: 13px;
+    }
+
+    ul.drop-down-menu li {
+        position: relative;
+        white-space: nowrap;
+        border-right: #520404 1px solid;        
+    }
+
+    ul.drop-down-menu > li:last-child {
+        border-right: none;
+    }
+
+    ul.drop-down-menu > li {
+        float: left; /* 只有第一層是靠左對齊*/
+    }  
+    
+     ul.drop-down-menu a {
+        background-color: #520404;
+        color: #fff;
+        display: block;
+        padding: 0 28px;
+        text-decoration: none;
+        line-height: 40px;
+        
+    }
+    ul.drop-down-menu a:hover { /* 滑鼠滑入按鈕變色*/
+        background-color: #ef5c28;
+        color: #fff;
+    }
+    ul.drop-down-menu li:hover > a { /* 滑鼠移入次選單上層按鈕保持變色*/
+        background-color: #ef5c28;
+        color: #fff;
+    }
+	
+	
+	 ul.drop-down-menu ul {
+        border: #ccc 1px solid;
+        position: absolute;
+        z-index: 99;
+        left: -1px;
+        top: 100%;
+       min-width: 180px;
+    }
+
+    ul.drop-down-menu ul li {
+        border-bottom: #ccc 1px solid;
+    }
+
+    ul.drop-down-menu ul li:last-child {
+        border-bottom: none;
+    }
+
+    ul.drop-down-menu ul ul { /*第三層以後的選單出現位置與第二層不同*/
+        z-index: 999;
+        top: 10px;
+        left: 90%;
+    }
+	
+
+
+ul.drop-down-menu ul { /*隱藏次選單*/
+        display: none;
+    } 
+
+    ul.drop-down-menu li:hover > ul { /* 滑鼠滑入展開次選單*/
+        display: block;
+    }
+到這裡已經完成了下拉式的選單。
+
+
+ul.drop-down-menu ul { /*隱藏次選單*/  
+        left: 99999px;
+        opacity: 0;
+        -webkit-transition: opacity 0.3s;
+        transition: opacity 0.3s;        
+    } 
+
+    ul.drop-down-menu li:hover > ul { /* 滑鼠滑入展開次選單*/
+        opacity: 1;
+        -webkit-transition: opacity 0.3s;
+        transition: opacity 0.3s; 
+        left: -1px;
+        border-right: 5px;
+    }
+    
+    ul.drop-down-menu li:hover > ul ul { /* 滑鼠滑入之後、次選單之後的選單依舊隱藏*/
+        left: 99999px;
+    } 
+    
+    ul.drop-down-menu ul li:hover > ul { /* 第二層之後的選單展開位置*/
+        left: 90%;
+    }
+body {
+	margin-top: 0px;
+}
+
+-->
+</style>
+<!-- InstanceBeginEditable name="head" -->
+<meta http-equiv="Content-Language" content="zh-tw" />
+
+
+<!-- InstanceEndEditable -->
+</head>
+
+<body>
+  <script src="../class/ajax/jquery.min.js"></script>
+  <script src="../class/backstretch/jquery.backstretch.min.js"></script>
+  <script type="text/javascript">
+  $(document).ready(function(){
+    $('.top-content').backstretch([
+       "../images/h1.JPG"
+	 , "../images/h3.JPG"
+     , "../images/h4.JPG"
+     , "../images/h5.JPG"
+     , "../images/h6.JPG"
+     , "../images/h7.JPG"
+     ], {duration: 3000, fade: 750});
+  });
+</script>
+<div id="dwt_container">
+  <div id="dwt_header" onclick="location.href='http://librarywork.taiwanschoolnet.org/cyberfair2017/tlm/index.htm';" style="cursor :pointer;">
+      <div class="top-content" style="position: relative; z-index: 0; width:1024px; height:100% "></div>
+  </div>
+  
+  <div id="dwt_menu">
+  <table width="100%"   border="0" align="center" cellpadding="0" cellspacing="0" bgcolor="#520404" >
+	
+  <tr>
+    <th scope="col"><ul class="drop-down-menu">
+
+        <li><a href="../1_map/origin.html">千年清水巖</a>
+         	 <ul>
+                <li><a href="../1_map/origin.html">清水巖由來</a></li>
+                <li><a href="../1_map/map.htm">清水巖的位置</a></li>
+			    <li><a href="../1_map/characteristic.html">清水巖特色文化</a></li>
+                <!-- <li><a href="../1_map/map.htm"  target="_blank">清水巖的位置</a></li> -->
+            </ul>
+         </li>
+       
+       <li><a href="../2_Historical sites/relic.html">古蹟探索</a>
+       		 <ul>
+                <li><a href="../2_Historical sites/relic.html">日據時代隧道遺址</a></li>
+                <li><a href="../2_Historical sites/archaeological.html">考古遺址</a></li>
+             </ul>
+        </li>
+        <li><a href="../3_temple/temple.htm">幽剎清水寺</a>
+            <ul>
+           		<li><a href="../3_temple/temple.htm">清水寺簡介</a>
+                <li><a href="../3_temple/master_god.html">供奉主神</a></li>
+                <li><a href="../3_temple/temple_tale.html">清水寺小知識</a></li>
+             </ul>
+        </li>
+                
+         <li><a href="../4_Story/pool.html">清水巖講古</a>
+       	 	<ul>
+                <li><a href="../4_Story/pool.html">靈泉池</a> </li>
+                <li><a href="../4_Story/shoulder_pole.html">扁擔穴</a> </li>
+                <li><a href="../4_Story/pig_home.html">豬巢穴</a> </li>
+                <li><a href="../4_Story/scissors.html">剪刀穴</a> </li>
+                <li><a href="../4_Story/lin_god.html">林半仙傳奇</a> </li>
+
+          </ul></li>
+        
+        
+        <li><a href="Q&A.html">訪談與踏查</a>
+       		<ul>
+                <li><a href="Q&A.html">訪談Q&A</a> </li>
+                <li><a href="interview photo.html">訪談照片 </a></li>
+                <li><a href="Experience.html">訪談心得</a> </li>
+                <li><a href="visit.html">訪談實錄 </a> </li>
+
+            </ul>
+        </li>
+        
+        
+        <li><a href="../6_thought/Introspection.html">省思與感謝</a>
+       		 <ul>
+                <li><a href="../6_thought/Introspection.html">省思</a></li> 
+                <li><a href="../6_thought/appreciate.html"> 感謝</a></li>  
+    	   		<li><a href="../6_thought/Behind-scenes.html">幕後花絮</a></li>  
+            </ul>
+        </li>
+        
+        <li><a href="../7_Treasure Hunt/half_day.html">鳳凰山尋寶趣</a>
+         <ul>
+                <li><a href="../7_Treasure Hunt/half_day.html">日據時代時空之旅</a></li> 
+                <li><a href="../7_Treasure Hunt/whole_day.html">銅板旅遊清水巖探險之旅</a></li> 
+         </ul>
+        </li>
+        
+        <li><a href="../report/index.html">專題簡報</a>
+        </li>
+        
+        
+        </li>
+         </ul>
+  </th>
+  </tr>
+</table>
+  
+  
+  </div>
+ 
+  <div id="dwt_center">
+  <!-- InstanceBeginEditable name="EditRegion1" -->
+
+<table border="0" width="100%">
+	<tr>
+        <td colspan="2" align="center"><h1>【訪談心得】</h1>
+        </td>
+    </tr>
+    <tr><td colspan="2"><hr /></td> </tr>
+    <tr>
+		<td width="272" align="center"><img src="Experience/Howard05.jpg" width="200" />　</td>
+		<td width="740">子瑝訪談心得：<br />　
+		　　開心可以訪問李先生，他讓我學到了一些沒聽過的詞彙，故事讓我學了很多增加了許多知識，真的好希望可以有更多的時間我好想在繼續聽，那些傳奇故事，與神蹟，那些故事讓我很驚奇，原來以前還有這種神奇的事情發生，每次聽說完故事之後，我一直幻想著那些事情有沒有可能發生在我身上，那之後要怎麼處理呢？真的很佩服李先生，他居然記得起來那些神奇故事和
+		神蹟。<br />
+　</td>
+  </tr>
+  <tr><td colspan="2"><hr /></td> </tr>
+	<tr>
+		<td align="center"><img src="Experience/Edward06.jpg" width="200" />　</td>
+		<td width="740">昌逸訪談心得:<br />
+		　　之前自己去那邊根本不知道那些東西的由來，所以說去那邊，根本是去那邊運動的，這次去跟老師去清水巖解說員一個一個跟我們詳細介紹，介紹了很多東西，例如；防空洞、石像、還有一些有的沒的，防空洞那一段路超難走的，裡面還有一大堆垃圾，很好奇，為甚麼要去那邊亂丟垃圾呢!?裡面還有2隻很可愛的蝙蝠正在休息，我們之後都很開心有這個介紹。<br />
+　</td>
+  </tr>
+  <tr><td colspan="2"><hr /></td> </tr>
+	<tr>
+		<td align="center"><img src="Experience/Aaron03.jpg" />　</td>
+		<td width="740">培倫訪談心得:<br />
+		　　經過李俊福先生的解說，讓我們見識到許多豐富的文化知識，也讓我們更了解清水巖和清水寺的事蹟和歷史。他也帶我們進入的龍蟠洞，介紹龍蟠洞裡面的東西，這龍蟠洞裡面黑漆漆的沒有帶手電筒、手機，根本看不到，以前我很怕進去黑漆漆的洞裡面，因為怕進去了在也出不來，現在一點點不會怕了….還有帶我們先鋒湖介紹先鋒湖的歷史，這次能出來訪談很開心!!現在也知道了清水嚴的歷史。<br />
+　</td>
+  </tr>
+  <tr><td colspan="2"><hr /></td> </tr>
+	<tr>
+		<td align="center"><img src="Experience/Micheal03.jpg" width="200" />　</td>
+		<td width="740">美任訪談心得:<br />
+		　&nbsp;&nbsp;&nbsp; 
+		在這一次的訪談中,雖然我是新手,但也表現的中規中矩,這次為我們說的人員是一個姓李的解說員,李解說員是一個對清水寺非常有深造的解說員對寺廟的研究也很深,裡解說員講得很詳細,也很精采,雖然有些台語我聽不懂可是至少也有聽到,我們走了隧道,爬了山,今天算是有運動到了,今天雖然很累,但也值得了,因為有聽到精彩的演講。<br />
+　</td>
+  </tr>
+  <tr><td colspan="2"><hr /></td> </tr>
+	<tr>
+		<td align="center"><img src="Experience/Zason03.jpg" width="200" />　</td>
+		<td width="740">澤丞訪談心得:<br />
+		　&nbsp;&nbsp;&nbsp; 
+		經過李俊福先生的訪談，讓我們了解了許多豐富的文化知識，也讓我們更加深入了解許多有關清水巖的歷史，也因為有李先生的帶領之下我們進入了山洞，以前來時都覺得山洞給人的感覺就是陰森森的感覺，因為李先生讓我對山洞的感覺大大改觀，其實山洞並沒有我想像的可怕，裡面蘊藏了許多豐富的文化資產，裡面也有一些平常見不到的動物，還有裡面的奇特地形，出來山洞以後覺得通體舒暢，因為山洞非常的矮。經過這趟旅行讓我學習到非常多。<br />
+　</td>
+  </tr>
+  <tr><td colspan="2"><hr /></td> </tr>
+	<tr>
+		<td align="center"><img src="Experience/Brian03.jpg" width="200" />　</td>
+		<td width="740">麒恩訪談心得：<br />
+		　　此次的採訪，我們的問得很多，學得也很多，李先生說了很多我從來沒聽過的東西，像是:寺廟的出入口、寺廟廁所的位置、寺廟牆上的名稱、和原日軍戰備坑道以及唐榮墓園的介紹；但是李先生說的有些地方因為台灣國語，所以不懂的地方都要一再的提問，十分苦惱；但是在坑道中，有股十分可怕的感覺，很陰森，而且我的頭還被老師當墊腳石，我的犧牲有夠大(哭哭)，還有遇到兩隻蝙蝠，他們都沒感到害怕，可以近距離看到他們的樣貌，真棒!!；還有那個唐榮墓園，走好久阿，快累死我了，但我們的付出一切一定都是值得的!<br />
+　</td>
+  </tr>
+  <tr><td colspan="2"><hr /></td> </tr>
+	<tr>
+		<td align="center"><img src="Experience/Jack04.jpg" width="200" />　</td>
+		<td width="740">傑諺的訪談心得：<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+		謝謝老師給我這次的機會參加網際博覽會，不然我可能一輩子都不可能來這邊，我覺得這次最有趣也最刺激的因該是龍蟠洞，裡面有好多日治時期的人打讓留下來的東西沒想好小小又難爬的洞可以有那麼多的東西，竟然還有會議室真的是讓我大開眼界，出乎我的意料之外，也讓我留下了美好回憶。<br />
+　</td>
+  </tr>
+  <tr><td colspan="2"><hr /></td> </tr>
+	<tr>
+		<td align="center"><img src="Experience/Jae05.jpg" width="200" />　</td>
+		<td width="740">佳惠的訪談心得：<br />
+		　　前幾天在規畫去參訪時，在網路上看到清水嚴的特色.文化，當下就決定去看看。其實我前往林園路經這兒已多次，就是一直沒機會進去一看看，這次特別安排一趟清水巖探訪之旅.真的讓我大開眼界。<br />
+　</td>
+  </tr>
+</table>
+
+<!-- InstanceEndEditable --></div>
+  
+  <div id="dwt_footer">
+    <table width="100%" height="50" valign="middle"  border="0" cellpadding="0" cellspacing="0">
+      <tr>
+        <td><div align="center">2017網界博覽會專題製作大賽</div></td>
+        <td><div align="center">龍山尋寶清水巖製作團隊@高雄市立潮寮國民中學</div></td>
+      </tr>
+    </table>
+  </div>
+
+</div>
+</body>
+<!-- InstanceEnd --></html>

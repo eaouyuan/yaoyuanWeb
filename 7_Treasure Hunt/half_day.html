@@ -1,0 +1,323 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="/Templates/index.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- InstanceBeginEditable name="docdtitle" -->
+<title>日據時代時空之旅</title>
+<!-- InstanceEndEditable -->
+<link href="../style.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+<!--
+
+
+ ul { /* 取消ul預設的內縮及樣式 */ 
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+
+    ul.drop-down-menu {s
+       <!-- border: #ccc 1px solid; -->
+	    border: #520404 1px solid;
+        display: inline-block;
+        font-family: 'Open Sans', Arial, sans-serif;
+        font-size: 13px;
+    }
+
+    ul.drop-down-menu li {
+        position: relative;
+        white-space: nowrap;
+        border-right: #520404 1px solid;        
+    }
+
+    ul.drop-down-menu > li:last-child {
+        border-right: none;
+    }
+
+    ul.drop-down-menu > li {
+        float: left; /* 只有第一層是靠左對齊*/
+    }  
+    
+     ul.drop-down-menu a {
+        background-color: #520404;
+        color: #fff;
+        display: block;
+        padding: 0 28px;
+        text-decoration: none;
+        line-height: 40px;
+        
+    }
+    ul.drop-down-menu a:hover { /* 滑鼠滑入按鈕變色*/
+        background-color: #ef5c28;
+        color: #fff;
+    }
+    ul.drop-down-menu li:hover > a { /* 滑鼠移入次選單上層按鈕保持變色*/
+        background-color: #ef5c28;
+        color: #fff;
+    }
+	
+	
+	 ul.drop-down-menu ul {
+        border: #ccc 1px solid;
+        position: absolute;
+        z-index: 99;
+        left: -1px;
+        top: 100%;
+       min-width: 180px;
+    }
+
+    ul.drop-down-menu ul li {
+        border-bottom: #ccc 1px solid;
+    }
+
+    ul.drop-down-menu ul li:last-child {
+        border-bottom: none;
+    }
+
+    ul.drop-down-menu ul ul { /*第三層以後的選單出現位置與第二層不同*/
+        z-index: 999;
+        top: 10px;
+        left: 90%;
+    }
+	
+
+
+ul.drop-down-menu ul { /*隱藏次選單*/
+        display: none;
+    } 
+
+    ul.drop-down-menu li:hover > ul { /* 滑鼠滑入展開次選單*/
+        display: block;
+    }
+到這裡已經完成了下拉式的選單。
+
+
+ul.drop-down-menu ul { /*隱藏次選單*/  
+        left: 99999px;
+        opacity: 0;
+        -webkit-transition: opacity 0.3s;
+        transition: opacity 0.3s;        
+    } 
+
+    ul.drop-down-menu li:hover > ul { /* 滑鼠滑入展開次選單*/
+        opacity: 1;
+        -webkit-transition: opacity 0.3s;
+        transition: opacity 0.3s; 
+        left: -1px;
+        border-right: 5px;
+    }
+    
+    ul.drop-down-menu li:hover > ul ul { /* 滑鼠滑入之後、次選單之後的選單依舊隱藏*/
+        left: 99999px;
+    } 
+    
+    ul.drop-down-menu ul li:hover > ul { /* 第二層之後的選單展開位置*/
+        left: 90%;
+    }
+body {
+	margin-top: 0px;
+}
+
+-->
+</style>
+<!-- InstanceBeginEditable name="head" -->
+
+
+<style type="text/css">
+<!--
+#dwt_container #dwt_center table tr td-YUAN {
+	font-size: 14px;
+}
+#dwt_container #dwt_center table {
+	font-size: 18px;
+	line-height: 1.7;
+}
+-->
+</style>
+<!-- InstanceEndEditable -->
+</head>
+
+<body>
+  <script src="../class/ajax/jquery.min.js"></script>
+  <script src="../class/backstretch/jquery.backstretch.min.js"></script>
+  <script type="text/javascript">
+  $(document).ready(function(){
+    $('.top-content').backstretch([
+       "../images/h1.JPG"
+	 , "../images/h3.JPG"
+     , "../images/h4.JPG"
+     , "../images/h5.JPG"
+     , "../images/h6.JPG"
+     , "../images/h7.JPG"
+     ], {duration: 3000, fade: 750});
+  });
+</script>
+<div id="dwt_container">
+  <div id="dwt_header" onclick="location.href='http://librarywork.taiwanschoolnet.org/cyberfair2017/tlm/index.htm';" style="cursor :pointer;">
+      <div class="top-content" style="position: relative; z-index: 0; width:1024px; height:100% "></div>
+  </div>
+  
+  <div id="dwt_menu">
+  <table width="100%"   border="0" align="center" cellpadding="0" cellspacing="0" bgcolor="#520404" >
+	
+  <tr>
+    <th scope="col"><ul class="drop-down-menu">
+
+        <li><a href="../1_map/origin.html">千年清水巖</a>
+         	 <ul>
+                <li><a href="../1_map/origin.html">清水巖由來</a></li>
+                <li><a href="../1_map/map.htm">清水巖的位置</a></li>
+			    <li><a href="../1_map/characteristic.html">清水巖特色文化</a></li>
+                <!-- <li><a href="../1_map/map.htm"  target="_blank">清水巖的位置</a></li> -->
+            </ul>
+         </li>
+       
+       <li><a href="../2_Historical sites/relic.html">古蹟探索</a>
+       		 <ul>
+                <li><a href="../2_Historical sites/relic.html">日據時代隧道遺址</a></li>
+                <li><a href="../2_Historical sites/archaeological.html">考古遺址</a></li>
+             </ul>
+        </li>
+        <li><a href="../3_temple/temple.htm">幽剎清水寺</a>
+            <ul>
+           		<li><a href="../3_temple/temple.htm">清水寺簡介</a>
+                <li><a href="../3_temple/master_god.html">供奉主神</a></li>
+                <li><a href="../3_temple/temple_tale.html">清水寺小知識</a></li>
+             </ul>
+        </li>
+                
+         <li><a href="../4_Story/pool.html">清水巖講古</a>
+       	 	<ul>
+                <li><a href="../4_Story/pool.html">靈泉池</a> </li>
+                <li><a href="../4_Story/shoulder_pole.html">扁擔穴</a> </li>
+                <li><a href="../4_Story/pig_home.html">豬巢穴</a> </li>
+                <li><a href="../4_Story/scissors.html">剪刀穴</a> </li>
+                <li><a href="../4_Story/lin_god.html">林半仙傳奇</a> </li>
+
+          </ul></li>
+        
+        
+        <li><a href="../5_interview/Q&A.html">訪談與踏查</a>
+       		<ul>
+                <li><a href="../5_interview/Q&A.html">訪談Q&A</a> </li>
+                <li><a href="../5_interview/interview photo.html">訪談照片 </a></li>
+                <li><a href="../5_interview/Experience.html">訪談心得</a> </li>
+                <li><a href="../5_interview/visit.html">訪談實錄 </a> </li>
+
+            </ul>
+        </li>
+        
+        
+        <li><a href="../6_thought/Introspection.html">省思與感謝</a>
+       		 <ul>
+                <li><a href="../6_thought/Introspection.html">省思</a></li> 
+                <li><a href="../6_thought/appreciate.html"> 感謝</a></li>  
+    	   		<li><a href="../6_thought/Behind-scenes.html">幕後花絮</a></li>  
+            </ul>
+        </li>
+        
+        <li><a href="half_day.html">鳳凰山尋寶趣</a>
+         <ul>
+                <li><a href="half_day.html">日據時代時空之旅</a></li> 
+                <li><a href="whole_day.html">銅板旅遊清水巖探險之旅</a></li> 
+         </ul>
+        </li>
+        
+        <li><a href="../report/index.html">專題簡報</a>
+        </li>
+        
+        
+        </li>
+         </ul>
+  </th>
+  </tr>
+</table>
+  
+  
+  </div>
+ 
+  <div id="dwt_center">
+  <!-- InstanceBeginEditable name="EditRegion1" -->
+
+  <table width="100%"  border="0" cellspacing="0" cellpadding="0" rules="rows" frame="hsides">
+
+  
+  <tr>    <td  align="center" scope="col"> <h1>【日據時代時空之旅】</h1></td>  </tr>
+  
+
+  </table>
+  <table width="100%"  border="1" cellspacing="0" cellpadding="5" >
+    <tr>
+      <td colspan="2" align="center" valign="top">清水寺(巖)</td>
+    </tr>
+    <tr>
+      <td width="25%" align="center" valign="middle">連絡電話</td>
+      <td align="left" valign="top">(07)641_2511 ></td>
+    </tr>
+    <tr>
+      <td align="center" valign="middle">活動內容</td>
+      <td align="left" valign="middle">在家享用的美味早餐 <br /> 9:00-11:00 準備穿越時空囉 !<br />
+        貼心小提醒:進動支前須帶手電筒.防滑鞋.外套.水，小心撞到頭，不要撞到蝙蝠。 <br />
+        探勘技巧:遇到岔路就右轉，就不會迷路囉 !</td>
+    </tr>
+    <tr>
+      <td align="center" valign="middle">清水巖簡介</td>
+      <td width="828" align="left" valign="middle">簡介:高雄八景之一，景色天成，美不勝收 <br />
+        清水巖風景區由多達26處景點組成，最主要的景點是清水寺，廟宇莊嚴清幽，山麓有泉水自石灰岩形成的奇石中湧出，水質清澄，用來泡茶風味絕佳。在攀岩賞泉之外，海象地景形成造型豐富的岩石景觀，以及生長在岩石上的長壽茄冬，尤其令人讚嘆和珍惜，自古以來即列為高雄八景之一，是源遠流長的寶貴自然資產。</td>
+    </tr>
+    <tr>
+      <td  align="center" valign="middle">地址</td>
+      <td  align="left" valign="middle">高雄縣林園鄉林園北路179號</td>
+    </tr>
+    <tr>
+      <td  align="center" valign="middle">清水巖名字由來</td>
+      <td  align="left" valign="middle">高雄縣南邊有座石灰岩方山，是由隆起珊瑚礁石灰岩地質構成，平均海拔高度不到50公尺，稱為鳳山丘陵。山麓有伏流泉水從石頭中湧出，水量充沛，即使乾旱季節也不乾涸，灌溉數百畝良田，水質極為清澄，因此命名為清水巖。</td>
+    </tr>
+    <tr>
+      <td  align="center" valign="middle">交通資訊</td>
+      <td  align="left" valign="middle">方法一：如果要前往清水巖風景區，可在高雄火車站搭乘高雄客運101號班車，至清水岩路口站下車，步行約20分鐘即可到達。 <br />
+        方法二：自行開車可從第1高速公路終點接17號省道，南行至林園鄉，過頂厝橋左轉東林西路，再接林園北路前行，即可見到清水寺牌樓，穿過牌樓即抵達。</td>
+    </tr>
+    <tr>
+      <td align="center" valign="middle">貼心小導覽 </td>
+      <td  align="left" valign="middle">高雄縣南邊有座石灰岩方山，是由隆起珊瑚礁石灰岩地質構成，平均海拔高度不到50公尺，稱為鳳山丘陵。 <br />
+        山麓有伏流泉水從石頭中湧出，水量充沛，即使乾旱季節也不乾涸，灌溉數百畝良田，水質極為清晰，因此命名為清水巖。<br />
+        清水巖東南靠海平原，在鄭成功王朝時期，已有先民前往開墾，稱為林園庄，也就是現在的林園鄉。 <br />
+        登上清水巖放眼太平洋，隱約可見小琉球和恆春大武諸山，林園鄉更是盡收眼底。 <br />
+        清水巖在清朝道光年間即築已有寺廟，為簡陋的庵，歷次多次重修，建築古色古香，台灣脫離日本殖民統治光復後，稱為清水寺，再經多次整修，已成為寺宇莊嚴，清靜幽美的佛寺。 <br />
+        鐘乳石不要亂摸喔，因為它會酸鹼中和，小心鍾小姐會告你性騷擾。</td>
+    </tr>
+    <tr>
+      <td colspan="2" align="center" valign="top"><img width="490" height="324" src="half_day_clip_image002_0001.jpg" alt="DSC_9649" /> <br />
+        龍蟠洞 <br />
+        必去地點TOP1     大推!!<br />
+        (貼心小提醒，記得帶手電筒和薄外套喔) <br />
+        (盡量約導遊，可以一起聽介紹，也不會迷路喔) <br />
+        哇!         是大型會議室欸 來開個大大會議吧！ <br />
+        <img width="474" height="313" src="half_day_clip_image004_0001.jpg" alt="DSC_9663" /> <br />
+        大型會議室 <br />
+        裡面真的好大，可以去像以前的軍人在裡面開會的樣子，有機會快去體驗!!<br />
+        <img src="half_day_clip_image006_0001.jpg" alt="" width="543" height="360" /> <br />
+        蝙蝠是因為牆上有許多凹凸不平，所以才會卡在上面 <br />
+        <img src="half_day_clip_image008_0001.jpg" alt="" width="553" height="367" /> <br />
+        一輩子一定要跟好友去一趟的驚險時空之旅 <br />
+        <img src="half_day_clip_image010_0001.jpg" alt="" width="553" height="367" /> <br />
+        先經過二號出口，之後再從三號出口出來，這是天井請勿往後 <br />
+        <img src="half_day_clip_image012_0001.jpg" alt="" width="553" height="367" /> <br />
+        拖著疲憊身軀的出洞囉，帶著滿滿的收穫回家囉 <br />The end</td>
+    </tr>
+  </table>
+  <!-- InstanceEndEditable --></div>
+  
+  <div id="dwt_footer">
+    <table width="100%" height="50" valign="middle"  border="0" cellpadding="0" cellspacing="0">
+      <tr>
+        <td><div align="center">2017網界博覽會專題製作大賽</div></td>
+        <td><div align="center">龍山尋寶清水巖製作團隊@高雄市立潮寮國民中學</div></td>
+      </tr>
+    </table>
+  </div>
+
+</div>
+</body>
+<!-- InstanceEnd --></html>

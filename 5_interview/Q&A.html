@@ -1,0 +1,485 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="/Templates/index.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- InstanceBeginEditable name="docdtitle" -->
+<title>訪談與踏查-Q&A</title>
+<!-- InstanceEndEditable -->
+<link href="../style.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+<!--
+
+
+ ul { /* 取消ul預設的內縮及樣式 */ 
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+
+    ul.drop-down-menu {s
+       <!-- border: #ccc 1px solid; -->
+	    border: #520404 1px solid;
+        display: inline-block;
+        font-family: 'Open Sans', Arial, sans-serif;
+        font-size: 13px;
+    }
+
+    ul.drop-down-menu li {
+        position: relative;
+        white-space: nowrap;
+        border-right: #520404 1px solid;        
+    }
+
+    ul.drop-down-menu > li:last-child {
+        border-right: none;
+    }
+
+    ul.drop-down-menu > li {
+        float: left; /* 只有第一層是靠左對齊*/
+    }  
+    
+     ul.drop-down-menu a {
+        background-color: #520404;
+        color: #fff;
+        display: block;
+        padding: 0 28px;
+        text-decoration: none;
+        line-height: 40px;
+        
+    }
+    ul.drop-down-menu a:hover { /* 滑鼠滑入按鈕變色*/
+        background-color: #ef5c28;
+        color: #fff;
+    }
+    ul.drop-down-menu li:hover > a { /* 滑鼠移入次選單上層按鈕保持變色*/
+        background-color: #ef5c28;
+        color: #fff;
+    }
+	
+	
+	 ul.drop-down-menu ul {
+        border: #ccc 1px solid;
+        position: absolute;
+        z-index: 99;
+        left: -1px;
+        top: 100%;
+       min-width: 180px;
+    }
+
+    ul.drop-down-menu ul li {
+        border-bottom: #ccc 1px solid;
+    }
+
+    ul.drop-down-menu ul li:last-child {
+        border-bottom: none;
+    }
+
+    ul.drop-down-menu ul ul { /*第三層以後的選單出現位置與第二層不同*/
+        z-index: 999;
+        top: 10px;
+        left: 90%;
+    }
+	
+
+
+ul.drop-down-menu ul { /*隱藏次選單*/
+        display: none;
+    } 
+
+    ul.drop-down-menu li:hover > ul { /* 滑鼠滑入展開次選單*/
+        display: block;
+    }
+到這裡已經完成了下拉式的選單。
+
+
+ul.drop-down-menu ul { /*隱藏次選單*/  
+        left: 99999px;
+        opacity: 0;
+        -webkit-transition: opacity 0.3s;
+        transition: opacity 0.3s;        
+    } 
+
+    ul.drop-down-menu li:hover > ul { /* 滑鼠滑入展開次選單*/
+        opacity: 1;
+        -webkit-transition: opacity 0.3s;
+        transition: opacity 0.3s; 
+        left: -1px;
+        border-right: 5px;
+    }
+    
+    ul.drop-down-menu li:hover > ul ul { /* 滑鼠滑入之後、次選單之後的選單依舊隱藏*/
+        left: 99999px;
+    } 
+    
+    ul.drop-down-menu ul li:hover > ul { /* 第二層之後的選單展開位置*/
+        left: 90%;
+    }
+body {
+	margin-top: 0px;
+}
+
+-->
+</style>
+<!-- InstanceBeginEditable name="head" -->
+<style type="text/css">
+<!--
+.style2 {font-size: large}
+-->
+</style>
+<!-- InstanceEndEditable -->
+</head>
+
+<body>
+  <script src="../class/ajax/jquery.min.js"></script>
+  <script src="../class/backstretch/jquery.backstretch.min.js"></script>
+  <script type="text/javascript">
+  $(document).ready(function(){
+    $('.top-content').backstretch([
+       "../images/h1.JPG"
+	 , "../images/h3.JPG"
+     , "../images/h4.JPG"
+     , "../images/h5.JPG"
+     , "../images/h6.JPG"
+     , "../images/h7.JPG"
+     ], {duration: 3000, fade: 750});
+  });
+</script>
+<div id="dwt_container">
+  <div id="dwt_header" onclick="location.href='http://librarywork.taiwanschoolnet.org/cyberfair2017/tlm/index.htm';" style="cursor :pointer;">
+      <div class="top-content" style="position: relative; z-index: 0; width:1024px; height:100% "></div>
+  </div>
+  
+  <div id="dwt_menu">
+  <table width="100%"   border="0" align="center" cellpadding="0" cellspacing="0" bgcolor="#520404" >
+	
+  <tr>
+    <th scope="col"><ul class="drop-down-menu">
+
+        <li><a href="../1_map/origin.html">千年清水巖</a>
+         	 <ul>
+                <li><a href="../1_map/origin.html">清水巖由來</a></li>
+                <li><a href="../1_map/map.htm">清水巖的位置</a></li>
+			    <li><a href="../1_map/characteristic.html">清水巖特色文化</a></li>
+                <!-- <li><a href="../1_map/map.htm"  target="_blank">清水巖的位置</a></li> -->
+            </ul>
+         </li>
+       
+       <li><a href="../2_Historical sites/relic.html">古蹟探索</a>
+       		 <ul>
+                <li><a href="../2_Historical sites/relic.html">日據時代隧道遺址</a></li>
+                <li><a href="../2_Historical sites/archaeological.html">考古遺址</a></li>
+             </ul>
+        </li>
+        <li><a href="../3_temple/temple.htm">幽剎清水寺</a>
+            <ul>
+           		<li><a href="../3_temple/temple.htm">清水寺簡介</a>
+                <li><a href="../3_temple/master_god.html">供奉主神</a></li>
+                <li><a href="../3_temple/temple_tale.html">清水寺小知識</a></li>
+             </ul>
+        </li>
+                
+         <li><a href="../4_Story/pool.html">清水巖講古</a>
+       	 	<ul>
+                <li><a href="../4_Story/pool.html">靈泉池</a> </li>
+                <li><a href="../4_Story/shoulder_pole.html">扁擔穴</a> </li>
+                <li><a href="../4_Story/pig_home.html">豬巢穴</a> </li>
+                <li><a href="../4_Story/scissors.html">剪刀穴</a> </li>
+                <li><a href="../4_Story/lin_god.html">林半仙傳奇</a> </li>
+
+          </ul></li>
+        
+        
+        <li><a href="Q&A.html">訪談與踏查</a>
+       		<ul>
+                <li><a href="Q&A.html">訪談Q&A</a> </li>
+                <li><a href="interview photo.html">訪談照片 </a></li>
+                <li><a href="Experience.html">訪談心得</a> </li>
+                <li><a href="visit.html">訪談實錄 </a> </li>
+
+            </ul>
+        </li>
+        
+        
+        <li><a href="../6_thought/Introspection.html">省思與感謝</a>
+       		 <ul>
+                <li><a href="../6_thought/Introspection.html">省思</a></li> 
+                <li><a href="../6_thought/appreciate.html"> 感謝</a></li>  
+    	   		<li><a href="../6_thought/Behind-scenes.html">幕後花絮</a></li>  
+            </ul>
+        </li>
+        
+        <li><a href="../7_Treasure Hunt/half_day.html">鳳凰山尋寶趣</a>
+         <ul>
+                <li><a href="../7_Treasure Hunt/half_day.html">日據時代時空之旅</a></li> 
+                <li><a href="../7_Treasure Hunt/whole_day.html">銅板旅遊清水巖探險之旅</a></li> 
+         </ul>
+        </li>
+        
+        <li><a href="../report/index.html">專題簡報</a>
+        </li>
+        
+        
+        </li>
+         </ul>
+  </th>
+  </tr>
+</table>
+  
+  
+  </div>
+ 
+  <div id="dwt_center">
+  <!-- InstanceBeginEditable name="EditRegion1" -->
+  <table width="100%" border="0" cellpadding="10">
+ <tr> <td colspan="2" align="center"><h1>日期:106年1月21日</h1></td></tr>
+ <tr><td colspan="2"><hr /></td> </tr>
+ <tr>
+ <td width="20%">   <h2 align="right">參訪人員:</h2></td>
+ <td width="84%"><h3 align="left">郭耀元、孫綿娸老師、曾子瑝、陳傑諺、張簡昌逸、黃培倫、陳美任、魏麒恩、張簡澤丞、蔡佳惠
+   </p> 
+ </h3></td>
+ </tr>
+ <tr>
+ <td align="left">   <h2 align="right">地 點:</h2></td>
+ <td align="left"> <h3 align="left">清水巖、清水寺、靈泉池、龍蟠洞</h3></td>
+ </tr>
+ <tr>
+   <td align="left">     <h2 align="right">事前準備:</h2></td>
+   <td align="left"><h3 align="left">事先與文史工作者李顧問李俊福先生約談時間、與海軍陸戰隊99旅申請參訪靈泉池</h3></td>
+ </tr>
+ <tr>
+   <td align="left">     <h2 align="right">所需設備:</h2></td>
+   <td align="left"><h3 align="left">照相機 、攝影機 、錄音機</h3></td>
+ </tr>
+   <tr><td colspan="2"><hr /></td> </tr>
+    </table>
+     <table width="100%" border="0">
+     <tr> 
+     	<td width="50%" rowspan="2" align="center" valign="middle"><img src="Q&A picture/mr lin.JPG" width="300" height="333" align="middle" /></td>
+        
+        <td width="50%" height="64"><h1 align="center">採訪人-李俊福顧問</h1>
+        <hr /></td>   
+   	   <tr>
+   	     <td colspan="1" valign="top"><h1>訪問內容:</h1>
+           <h2 align="left">● 
+             清水寺由來及建築形成</h2>
+           <h2 align="left">●             清水巖地形特徵及歷史典故</h2>
+           <h2 align="left">● 
+             靈泉池神蹟事件</h2>
+           <h2 align="left"> ●林半仙神奇事蹟</h2>
+           <h2 align="left">●龍蟠洞建成與事件</h2></td>
+   	   </tr>
+     </tr>
+   </table>
+  <tr><td colspan="2"><hr /></td> </tr>
+  
+  <table border="0" cellspacing="0" cellpadding="10">
+	<tr>
+    <td colspan="4" align="center" valign="top"><h1>【Q&A】</h1>
+    </td>
+  </tr>
+    <tr><td colspan="4"><hr /></td> </tr>
+
+    
+    <tr>
+		<td width="31" rowspan="2" align="right" valign="top">1、</td>
+		<td width="15" valign="top">Q:</td>
+		<td width="685" valign="top">請問為什麼這裡會被稱為清水巖.清水寺?</td>
+   		<td width="200" rowspan="2">
+	    <div align="center"><img src="Q&A picture/temple.JPG" width="200" />清水寺</div></td>
+	</tr>
+   	<tr>
+		<td width="15" valign="top">A:</td>
+		<td valign="top">清水寺:起初因有地方一個農夫，在耕作日入而息之際，路經岩下， 
+		發現靠近山岩方面，發出火焰，光芒數尺，照明四周，及近視之，不見一物，如此者數次，因之奇疑不已。於是特在光天化日之下，撥冗循途往探，結果非他物體，惟有岩邊樹上懸掛小紅香灰囊一只，兩面寫明釋迦牟尼佛及觀音菩薩兩尊大慈大悲佛號，當時其情傳遍鄰里，感召地方居士，於是結庵供奉。<br>清水巖: 山麓有泉從石罅出，注為汗池，大旱不涸， 
+		灌田數百畝，曰靈泉池，相傳此水為堪輿家林半仙仗劍喝出，未知確否？原池上 有大榕一株，俯臨如蓋，現己被砍伐，惜哉。其水澄清，以之烹荼，別饒風味， 
+     因此命名為(清水巖)。</td>
+	</tr>
+    <tr><td colspan="4"><hr /></td> </tr>
+	
+    
+    
+    
+    <tr>
+		<td rowspan="2"  align="right" valign="top">2、</td>
+		<td width="15" valign="top">Q:</td>
+		<td valign="top">為什麼這裡會出現如此奧妙的地形?</td>
+   		<td width="211"  rowspan="2"><div align="center"><img src="Q&A picture/stone.JPG" width="200" />特殊景觀</div></td>
+    </tr>
+	<tr>
+		<td width="15" valign="top">A:</td>
+		<td valign="top">清水巖是珊瑚礁石灰岩地質，在以前海平線不像現在這麼低時，因為海浪的侵蝕拍打和板塊擠壓的造山運動，形成現在如此獨特的地形。</td>
+	</tr>
+        <tr><td colspan="4"><hr /></td> </tr>
+
+<tr>
+		<td rowspan="2"  align="right" valign="top">3、</td>
+		<td width="15" valign="top">Q:</td>
+		<td valign="top">請問應該怎麼做才能讓我們更加了解清水巖?</td>
+        <td width="211"  rowspan="2"><div align="center"><img src="Q&A picture/teach.JPG" width="200" />李先生講解過程</div></td>
+	</tr>
+	<tr>
+		<td width="15" valign="top">A:</td>
+		<td valign="top">
+		可以實地走訪、探勘，或尋求當地文史工作者「李先生」，也可以上網搜尋我們的網頁，有著詳細介紹。</td>
+	</tr>
+
+        <tr><td colspan="4"><hr /></td> </tr>
+   
+<tr>
+		<td rowspan="2"  align="right" valign="top">4、</td>
+		<td width="15" valign="top">Q:</td>
+		<td valign="top">請問這裡有什麼有名的小吃?</td>
+	   	<td width="211"  rowspan="2"><div align="center"><img src="Q&A picture/egg.jpg" width="200" />阿婆茶葉蛋</div></td>
+    </tr>
+	<tr>
+		<td width="15" valign="top">A:</td>
+		<td valign="top">這裡有一攤十分有名的茶葉蛋，名為「阿婆茶葉蛋」，有機會可以來品嘗看看。</td>
+
+    </tr>
+        <tr><td colspan="4"><hr /></td> </tr>
+
+<tr>
+		<td rowspan="2"  align="right" valign="top">5、</td>
+		<td width="15" valign="top">Q:</td>
+		<td valign="top">請問這裡有什麼歷史典故?</td>
+        <td width="211"  rowspan="2"><div align="center"><img src="Q&A picture/cave.JPG" width="200" />龍蟠洞</div></td>
+	</tr>
+	<tr>
+		<td width="15" valign="top">A:</td>
+		<td valign="top">
+		此地日治時期日軍曾在此打通坑道，現名為「龍蟠洞」，進去如果迷路的話，只要一直右轉，就可以找到出口；除此之外，這裡還有著林半仙傳奇，例:「林半仙破壞『扁膽穴』，使黃族人遭害」、「林半仙打掉『豬寮穴』，讓蔣家養不出肥豬」。</td>
+	</tr>
+        <tr><td colspan="4"><hr /></td> </tr>
+
+    <tr>
+		<td rowspan="2"  align="right" valign="top">6、</td>
+		<td width="15" valign="top">Q:</td>
+		<td valign="top">為什麼靈泉池又稱為「先鋒湖」?</td>
+        <td width="211"  rowspan="2"><div align="center"><img src="Q&A picture/Q&A pool.JPG" width="200" />靈泉池</div></td>
+	</tr>
+     
+
+	<tr>
+		<td width="15" valign="top">A:</td>
+		<td valign="top">因為靈泉池位於先鋒軍隊陣營，故又稱為「先鋒湖」。</td>
+	</tr>
+       <tr><td colspan="4"><hr /></td> </tr>
+    
+<tr>
+		<td rowspan="2"  align="right" valign="top">7、</td>
+		<td width="15" valign="top">Q:</td>
+		<td valign="top">「龍蟠洞」挖掘當時總共動用了多少人?</td>
+        <td width="211"  rowspan="2"><div align="center"><img src="Q&A picture/cave_2.JPG" width="200" />李先生解說過程</div></td>
+	</tr>
+     
+
+	<tr>
+		<td width="15" valign="top">A:</td>
+		<td valign="top">此工程人員分成四組分別進行，一組五千人，四組兩萬人。</td>
+	</tr>
+       <tr><td colspan="4"><hr /></td> </tr>
+    
+<tr>
+		<td rowspan="2"  align="right" valign="top">8、</td>
+		<td width="15" valign="top">Q:</td>
+		<td valign="top">鳳山水庫怎麼會跟清水巖作聯繫?</td>
+        <td width="211"  rowspan="2"><div align="center"><img src="Q&A picture/cave_3.JPG" width="200" />龍蟠洞洞內景觀</div></td>
+	</tr>
+   
+
+	<tr>
+		<td width="15" valign="top">A:</td>
+		<td valign="top">可以通過日據隧道遺址，來回聯繫。
+		</td>
+	</tr>
+         <tr><td colspan="4"><hr /></td> </tr>
+<tr>
+		<td rowspan="2"  align="right" valign="top">9、</td>
+		<td width="15" valign="top">Q:</td>	
+		<td valign="top">「龍蟠洞」是甚麼時候開始建造的?</td>
+        <td width="211"  rowspan="2"><div align="center"><img src="Q&A picture/cave_4.JPG" width="200" />龍蟠洞洞內講解</div></td>
+	</tr>
+     
+
+	<tr>
+		<td width="15" valign="top">A:</td>
+		<td valign="top"> 
+		在民國22年，二次大戰日本統治時期。</td>
+	</tr>
+       <tr><td colspan="4"><hr /></td> </tr>
+<tr>
+		<td rowspan="2"  align="right" valign="top">10、</td>
+		<td width="15" valign="top">Q:</td>
+		<td valign="top">為什麼會想要把廟宇跟風景區連接在一起?</td>
+        <td width="211"  rowspan="2"><div align="center"><img src="Q&A picture/mountain.JPG" width="200" />運動好去處</div></td>
+	</tr>
+	<tr>
+		<td width="15" valign="top">A:</td>
+		<td valign="top">  清水巖風光明媚、風水盛好，所以蓋廟是個好選擇，而後面當成風景區可以吸引人潮。</td>
+	</tr>
+       <tr><td colspan="4"><hr /></td> </tr>
+<tr>
+		<td rowspan="2"  align="right" valign="top">11、</td>
+		<td width="15" valign="top">Q:</td>
+		<td valign="top">當初為什麼要挖掘坑道?</td>
+        <td width="211"  rowspan="2"><div align="center"><img src="Q&A picture/cave_5.JPG" width="200" />龍蟠洞洞內景觀</div></td>
+	</tr>
+	<tr>
+		<td width="15" valign="top">A:</td>
+		<td valign="top">因為日軍來此作戰備坑道，需要有條近路可以通到當時軍事重地鳳鼻頭和黃埔軍校。</td>
+	</tr>
+       <tr><td colspan="4"><hr /></td> </tr>
+<tr>
+		<td rowspan="2"  align="right" valign="top">12、</td>
+		<td width="15"valign="top">Q:</td>
+		<td valign="top">清水巖與當地居明有何淵源?</td>
+	    <td width="211"  rowspan="2"><div align="center"><img src="Q&A picture/Q&A pool_2.JPG" width="200" />靈泉池水面</div></td>
+    </tr>
+	<tr>
+		<td width="15" valign="top">A:</td>
+		<td valign="top"> 
+		林半仙在此作法，請當地的農夫居民幫忙他引出水，故才有清水巖的水源；現在也帶動觀光，引來人潮。</td>
+	  </tr>
+       <tr><td colspan="4"><hr /></td> </tr>
+<tr>
+		<td rowspan="2"  align="right" valign="top">13、</td>
+		<td width="15" valign="top">Q:</td>
+		<td valign="top">清水巖內會有什麼東西提供給到地參觀的人?</td>
+	   	<td width="211"  rowspan="2"><div align="center"><img src="Q&A picture/temple door.JPG" width="200" />清水寺廟口</div></td>
+    </tr>
+	<tr>
+		<td width="15" valign="top">A:</td>
+		<td valign="top"> 
+		到了清水巖，可以先到寺廟內拜拜求平安，之後可以上山參觀，除了可以運動，還可以更多不一樣的東西。 </td>
+	</tr>
+       <tr><td colspan="4"><hr /></td> </tr>
+<tr>
+		<td rowspan="2"  align="right" valign="top">14、</td>
+		<td width="15" valign="top">Q:</td>
+		<td valign="top">清水巖內的休閒步道該如何走才可以全部都觀賞到？</td>
+	   	<td width="211"  rowspan="2"><div align="center"><img src="Q&A picture/temple map.JPG" width="200" />李先生解說地圖</div></td>
+    </tr>
+	<tr>
+		<td width="15" valign="top">A:</td>
+		<td valign="top">可以到本網站看休閒步道導覽圖，一覽無遺。
+		
+		</td>
+		
+	
+	</table>
+  
+  <!-- InstanceEndEditable --></div>
+  
+  <div id="dwt_footer">
+    <table width="100%" height="50" valign="middle"  border="0" cellpadding="0" cellspacing="0">
+      <tr>
+        <td><div align="center">2017網界博覽會專題製作大賽</div></td>
+        <td><div align="center">龍山尋寶清水巖製作團隊@高雄市立潮寮國民中學</div></td>
+      </tr>
+    </table>
+  </div>
+
+</div>
+</body>
+<!-- InstanceEnd --></html>
